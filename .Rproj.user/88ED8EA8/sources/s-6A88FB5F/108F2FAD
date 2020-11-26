@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1606351784205.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3386623671",
+    "id" : "108F2FAD",
+    "lastKnownWriteTime" : 1606353657,
+    "last_content_update" : 1606353657745,
+    "path" : "~/GitHub/ExData_Plotting1/plot4.R",
+    "project_path" : "plot4.R",
+    "properties" : {
+        "cursorPosition" : "29,107",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

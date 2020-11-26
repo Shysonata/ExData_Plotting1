@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1606347734932.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7ECB0D3C",
+    "lastKnownWriteTime" : 31244173393002613,
+    "last_content_update" : 1606347734932,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "96EA1329",
+        "caption" : "hpc",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=hpc&cache_key=96EA1329",
+        "displayedObservations" : "2075259",
+        "environment" : "",
+        "object" : "hpc",
+        "preview" : "0",
+        "totalObservations" : "2075259",
+        "variables" : "9"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

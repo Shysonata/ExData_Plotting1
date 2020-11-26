@@ -1,0 +1,15 @@
+#First ensure .txt file is in wd, then read in the text file data
+hpc <- read.csv("~/GitHub/ExData_Plotting1/household_power_consumption.txt", header=TRUE, sep=";", na.strings = "?", 
+                colClasses = c('character','character','numeric','numeric','numeric','numeric','numeric','numeric','numeric'))
+
+#Filtering for dates of 2007-02-01 and 2007-02-02.
+library(dplyr)
+hpc <- filter(hpc, Date == "1/2/2007" | Date == "2/2/2007")
+
+#Tidy up dates/times
+hpc$Date <- as.Date(hpc$Date, "%d/%m/%Y")
+hpc <- mutate(hpc, date_time = paste(hpc$Date, hpc$Time))
+hpc$date_time <- as.POSIXct(hpc$date_time)
+
+#Constructing the plot
+plot(hpc$Global_active_power~hpc$date_time, type="l", ylab="Global Active Power (kilowatts)", xlab="")
